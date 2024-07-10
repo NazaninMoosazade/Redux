@@ -3,7 +3,6 @@ import './Users.css'
 
 export default function Users() {
   return (
-    <div>
         <div class="col-8 content px-0">
       <div class="content__wrapper">
         <ul class="content__tabs">
@@ -80,7 +79,6 @@ export default function Users() {
           </div>
         </div>
       </div>
-    </div>
     </div>
   )
 }
