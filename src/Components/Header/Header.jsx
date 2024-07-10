@@ -1,5 +1,8 @@
 import React from 'react'
 import './Header.css'
+import { IoMdNotifications } from "react-icons/io";
+import { IoSettings } from "react-icons/io5";
+
 
 export default function Header() {
   return (
@@ -20,11 +23,11 @@ export default function Header() {
         </div>
         <div class="header__btns">
           <button class="btn-custome btn-header__dark-mode">
-            <span class="fa fa-sun header__icon"></span>
+            <span class="fa fa-sun header__icon"><IoSettings/></span>
           </button>
 
           <button class="btn-custome btn-header__alert">
-            <span class="fa fa-bell header__icon"></span>
+            <span class="fa fa-bell header__icon"><IoMdNotifications/></span>
             <span class="header__alert-count">5</span>
           </button>
 
