@@ -7,7 +7,7 @@ import routes from './routes'
 
 export default function App() {
 
- const router = useRoutes(routes)
+ const router = useRoutes(routes);
 
   return (
     <>
@@ -16,6 +16,7 @@ export default function App() {
         <main class="main">
           <div class="row justify-content-between mx-0">
           <Sidebar/>
+          
           {router}
           </div>
         </main>
