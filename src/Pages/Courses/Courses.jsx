@@ -28,10 +28,10 @@ export default function Courses() {
         </li>
 
         <li className="content__tab">
-          <a href="weblog-admin.html" className="content__tab-link">
+          <Link to="/articles" className="content__tab-link">
             <span className="fa fa-newspaper"></span>
             وبلاگ
-          </a>
+          </Link>
         </li>
       </ul>
       <div className="active"></div>

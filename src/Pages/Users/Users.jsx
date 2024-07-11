@@ -27,10 +27,10 @@ export default function Users() {
           </li>
 
           <li class="content__tab">
-            <a href="weblog-admin.html" class="content__tab-link">
+            <Link to="/articles" class="content__tab-link">
               <span class="fa fa-newspaper"></span>
               وبلاگ
-            </a>
+            </Link>
           </li>
         </ul>
         <div class="active"></div>
