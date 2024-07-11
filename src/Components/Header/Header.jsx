@@ -16,9 +16,9 @@ export default function Header() {
           />
           <div class="header__details">
             <h4 class="header__name mb-2">محمدامین سعیدی راد</h4>
-            <p class="header__email my-0" lang="en">
+            <h3 class="header__email my-0" lang="en">
               توسعه دهنده جاوا اسکریپت
-            </p>
+            </h3>
           </div>
         </div>
         <div class="header__btns">
