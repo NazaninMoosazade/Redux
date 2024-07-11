@@ -15,10 +15,10 @@ export default function Courses() {
           </Link>
         </li>
         <li className="content__tab">
-          <a href="infomation-admin.html" className="content__tab-link">
+          <Link to="/infos" className="content__tab-link">
             <span className="fa fa-book"></span>
             اطلاعات
-          </a>
+          </Link>
         </li>
         <li className="content__tab">
           <Link to="/courses" className="content__tab-link">
