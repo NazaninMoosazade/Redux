@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
 
 body{
-direction: rtl;
+  direction: rtl;
 }
 
 :root {
@@ -116,6 +116,7 @@ body {
   border: none;
   transition: all 0.4s;
   position: relative;
+  margin: 5px;
 }
 
 .btn-custome::before {
@@ -690,6 +691,11 @@ body {
   color: var(--light);
 }
 
+.swal-footer{
+  display:flex;
+  justify-content:center;
+}
+
 /* End Dark Mode */
 
 @media only screen and (max-width: 75em) {
@@ -727,7 +733,7 @@ body {
 }
 @font-face {
   font-family: "yekan";
-  src: url("./fonts/Yekan.eot") format("eot"),
+  src: url("./fonts/Yekan.eot?#") format("eot"),
     url("./fonts/Yekan.ttf") format("truetype"),
     url("./fonts/Yekan.woff") format("woff");
 }
