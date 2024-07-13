@@ -15,7 +15,7 @@ export default function Header() {
             class="header__img"
           />
           <div class="header__details">
-            <h4 class="header__name mb-2">محمدامین سعیدی راد</h4>
+            <h4 class="header__name mb-2">  نازنین موسی زاده</h4>
             <h3 class="header__email my-0" lang="en">
               توسعه دهنده جاوا اسکریپت
             </h3>

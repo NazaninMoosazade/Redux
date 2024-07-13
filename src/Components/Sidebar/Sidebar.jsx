@@ -22,7 +22,7 @@ export default function Sidebar() {
                 <span class="fa fa-text-height"></span>
                 <p class="list__text mb-0">
                   <span class="">نام کوچک</span>
-                  <span class="list__firstname">محمدامین</span>
+                  <span class="list__firstname">نازنین</span>
                 </p>
               </li>
               <li class="list__item">
@@ -30,7 +30,7 @@ export default function Sidebar() {
 
                 <p class="list__text mb-0">
                   <span class="">نام خانوادگی</span>
-                  <span class="list__lastname">سعیدی راد</span>
+                  <span class="list__lastname"> موسی زاده</span>
                 </p>
               </li>
               <li class="list__item">
