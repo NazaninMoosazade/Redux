@@ -3,7 +3,10 @@ import './Users.css'
 import { Link } from 'react-router-dom'
 import Useritem from '../../Components/UserItem/Useritem'
 
+
 export default function Users() {
+
+
   return (
         <div class="col-8 content px-0">
       <div class="content__wrapper">
