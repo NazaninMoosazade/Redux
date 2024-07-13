@@ -1,8 +1,8 @@
 import {configureStore} from '@reduxjs/toolkit'
-import  useReducer  from "./store/Users.jsx"
+import usersReducer from './store/Users'
 
-export default configureStore ({
-  reducer: {
-    users: useReducer
-  }
-})
+export default configureStore({
+    reducer:{
+        users: usersReducer,
+    },
+});
